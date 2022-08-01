@@ -1,0 +1,189 @@
+/*___________________________*/
+/*Default CSS*/
+/*___________________________*/
+
+/* Setting the padding, text alignment, and background color of the header. */
+.header {
+  padding: 50px;
+  text-align: center;
+  background-color: #1b1b1f;
+}
+
+/* A CSS reset. It is used to make sure that all browsers render the page the same way. */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Changing the background color of the page */
+body {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-color: #202024;
+}
+
+/* Setting the margin, font size, color, display, justify content, and align items of the h1 tag. */
+h1 {
+  margin-bottom: 50px;
+  font-size: 3rem;
+  color: #363636;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #363636;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imghome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Setting the background color of the navigation bar. */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1b1b1f;
+}
+
+/* Making the list items float to the left. */
+li {
+  float: left;
+}
+
+/* Setting the display, color, text alignment, padding, and text decoration of the list items. */
+li a {
+  display: block;
+  color: #363636;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #202024;
+}
+
+/* Changing the background color of the active tab. */
+.active {
+  background-color: #202024;
+}
+
+#presentation {
+  background-color: #1b1b1f;
+  padding: 50px;
+  color: #363636;
+  display: flex;
+  width: 800px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*___________________________*/
+/* Map Tracking */
+/*___________________________*/
+
+#map-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 350px;
+  text-align: center;
+
+}
+
+/* #details */
+#details {
+  background-color: #1b1b1f;
+  padding: 20px;
+  color: #363636;
+  display: flex;
+  width: 800px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* all div inside #details */
+#details div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+
+/* #details */
+#members {
+  background-color: #1b1b1f;
+  padding: 40px;
+  color: #363636;
+  display: flex;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#members div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+img{
+  margin: 0px auto;
+}
+
+#imgpatch{
+  float: left;
+  margin: 0px auto;
+}
+
+/*___________________________*/
+/* Live ISS */
+/*___________________________*/
+
+#live-div {
+  width: 800px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*___________________________*/
+/* Expeditions */
+/*___________________________*/
+
+#expeditions {
+  background-color: #1b1b1f;
+  padding: 40px;
+  color: #363636;
+  display: flex;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#expeditions div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+
